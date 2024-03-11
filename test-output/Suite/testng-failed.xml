@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.UsedcarsTests">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="chennaiSubmenuOption"/>
+          <include name="navigateback"/>
+          <include name="Menu"/>
+        </methods>
+      </class> <!-- testcases.UsedcarsTests -->
+      <class name="testcases.GooglesigninTests">
+        <methods>
+          <include name="teardown"/>
+          <include name="printErrorMesssage"/>
+          <include name="setup"/>
+          <include name="nextButton"/>
+          <include name="clickGoogle"/>
+          <include name="eMail"/>
+          <include name="clickSignIn"/>
+        </methods>
+      </class> <!-- testcases.GooglesigninTests -->
+      <class name="testcases.UpcomingbikesTests">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="viewmore"/>
+          <include name="newBikes"/>
+          <include name="upcomingbikes"/>
+          <include name="manufacturer"/>
+        </methods>
+      </class> <!-- testcases.UpcomingbikesTests -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

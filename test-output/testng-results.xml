@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-07T11:45:51 IST" name="Suite" finished-at="2024-03-07T11:47:53 IST" duration-ms="122138">
+    <groups>
+      <group name="regression">
+        <method signature="GooglesigninTests.clickSignIn()[pri:1, instance:testcases.GooglesigninTests@394df057]" name="clickSignIn" class="testcases.GooglesigninTests"/>
+        <method signature="UpcomingbikesTests.newBikes()[pri:1, instance:testcases.UpcomingbikesTests@58a9760d]" name="newBikes" class="testcases.UpcomingbikesTests"/>
+        <method signature="UsedcarsTests.Menu()[pri:1, instance:testcases.UsedcarsTests@71e9ddb4]" name="Menu" class="testcases.UsedcarsTests"/>
+        <method signature="GooglesigninTests.clickGoogle()[pri:2, instance:testcases.GooglesigninTests@394df057]" name="clickGoogle" class="testcases.GooglesigninTests"/>
+        <method signature="UpcomingbikesTests.upcomingbikes()[pri:2, instance:testcases.UpcomingbikesTests@58a9760d]" name="upcomingbikes" class="testcases.UpcomingbikesTests"/>
+        <method signature="UsedcarsTests.chennaiSubmenuOption()[pri:2, instance:testcases.UsedcarsTests@71e9ddb4]" name="chennaiSubmenuOption" class="testcases.UsedcarsTests"/>
+        <method signature="GooglesigninTests.eMail()[pri:3, instance:testcases.GooglesigninTests@394df057]" name="eMail" class="testcases.GooglesigninTests"/>
+        <method signature="UpcomingbikesTests.manufacturer()[pri:3, instance:testcases.UpcomingbikesTests@58a9760d]" name="manufacturer" class="testcases.UpcomingbikesTests"/>
+        <method signature="UsedcarsTests.models()[pri:3, instance:testcases.UsedcarsTests@71e9ddb4]" name="models" class="testcases.UsedcarsTests"/>
+        <method signature="GooglesigninTests.nextButton()[pri:4, instance:testcases.GooglesigninTests@394df057]" name="nextButton" class="testcases.GooglesigninTests"/>
+        <method signature="UpcomingbikesTests.viewmore()[pri:4, instance:testcases.UpcomingbikesTests@58a9760d]" name="viewmore" class="testcases.UpcomingbikesTests"/>
+        <method signature="UsedcarsTests.navigateback()[pri:4, instance:testcases.UsedcarsTests@71e9ddb4]" name="navigateback" class="testcases.UsedcarsTests"/>
+        <method signature="GooglesigninTests.printErrorMesssage()[pri:5, instance:testcases.GooglesigninTests@394df057]" name="printErrorMesssage" class="testcases.GooglesigninTests"/>
+        <method signature="UpcomingbikesTests.hondabikemodels()[pri:5, instance:testcases.UpcomingbikesTests@58a9760d]" name="hondabikemodels" class="testcases.UpcomingbikesTests"/>
+        <method signature="UpcomingbikesTests.backhome()[pri:6, instance:testcases.UpcomingbikesTests@58a9760d]" name="backhome" class="testcases.UpcomingbikesTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GooglesigninTests.clickSignIn()[pri:1, instance:testcases.GooglesigninTests@394df057]" name="clickSignIn" class="testcases.GooglesigninTests"/>
+        <method signature="UpcomingbikesTests.newBikes()[pri:1, instance:testcases.UpcomingbikesTests@58a9760d]" name="newBikes" class="testcases.UpcomingbikesTests"/>
+        <method signature="UsedcarsTests.Menu()[pri:1, instance:testcases.UsedcarsTests@71e9ddb4]" name="Menu" class="testcases.UsedcarsTests"/>
+        <method signature="GooglesigninTests.clickGoogle()[pri:2, instance:testcases.GooglesigninTests@394df057]" name="clickGoogle" class="testcases.GooglesigninTests"/>
+        <method signature="UpcomingbikesTests.upcomingbikes()[pri:2, instance:testcases.UpcomingbikesTests@58a9760d]" name="upcomingbikes" class="testcases.UpcomingbikesTests"/>
+        <method signature="UsedcarsTests.chennaiSubmenuOption()[pri:2, instance:testcases.UsedcarsTests@71e9ddb4]" name="chennaiSubmenuOption" class="testcases.UsedcarsTests"/>
+        <method signature="UsedcarsTests.navigateback()[pri:4, instance:testcases.UsedcarsTests@71e9ddb4]" name="navigateback" class="testcases.UsedcarsTests"/>
+        <method signature="UpcomingbikesTests.backhome()[pri:6, instance:testcases.UpcomingbikesTests@58a9760d]" name="backhome" class="testcases.UpcomingbikesTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-07T11:45:51 IST" name="Test1" finished-at="2024-03-07T11:47:53 IST" duration-ms="122138">
+      <class name="testcases.UpcomingbikesTests">
+        <test-method signature="newBikes()[pri:1, instance:testcases.UpcomingbikesTests@58a9760d]" started-at="2024-03-07T11:46:04 IST" name="newBikes" finished-at="2024-03-07T11:46:14 IST" duration-ms="9812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newBikes -->
+        <test-method signature="upcomingbikes()[pri:2, instance:testcases.UpcomingbikesTests@58a9760d]" started-at="2024-03-07T11:46:15 IST" name="upcomingbikes" finished-at="2024-03-07T11:46:22 IST" duration-ms="7552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upcomingbikes -->
+        <test-method signature="manufacturer()[pri:3, instance:testcases.UpcomingbikesTests@58a9760d]" started-at="2024-03-07T11:46:23 IST" name="manufacturer" finished-at="2024-03-07T11:46:28 IST" duration-ms="4960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manufacturer -->
+        <test-method signature="viewmore()[pri:4, instance:testcases.UpcomingbikesTests@58a9760d]" started-at="2024-03-07T11:46:28 IST" name="viewmore" finished-at="2024-03-07T11:46:35 IST" duration-ms="7386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewmore -->
+        <test-method signature="hondabikemodels()[pri:5, instance:testcases.UpcomingbikesTests@58a9760d]" started-at="2024-03-07T11:46:36 IST" name="hondabikemodels" finished-at="2024-03-07T11:46:48 IST" duration-ms="12414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hondabikemodels -->
+        <test-method signature="backhome()[pri:6, instance:testcases.UpcomingbikesTests@58a9760d]" started-at="2024-03-07T11:46:49 IST" name="backhome" finished-at="2024-03-07T11:46:56 IST" duration-ms="6663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backhome -->
+      </class> <!-- testcases.UpcomingbikesTests -->
+      <class name="testcases.GooglesigninTests">
+        <test-method signature="clickSignIn()[pri:1, instance:testcases.GooglesigninTests@394df057]" started-at="2024-03-07T11:47:26 IST" name="clickSignIn" finished-at="2024-03-07T11:47:31 IST" duration-ms="4675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignIn -->
+        <test-method signature="clickGoogle()[pri:2, instance:testcases.GooglesigninTests@394df057]" started-at="2024-03-07T11:47:32 IST" name="clickGoogle" finished-at="2024-03-07T11:47:38 IST" duration-ms="6454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGoogle -->
+        <test-method signature="eMail()[pri:3, instance:testcases.GooglesigninTests@394df057]" started-at="2024-03-07T11:47:39 IST" name="eMail" finished-at="2024-03-07T11:47:44 IST" duration-ms="5540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eMail -->
+        <test-method signature="nextButton()[pri:4, instance:testcases.GooglesigninTests@394df057]" started-at="2024-03-07T11:47:44 IST" name="nextButton" finished-at="2024-03-07T11:47:51 IST" duration-ms="6301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextButton -->
+        <test-method signature="printErrorMesssage()[pri:5, instance:testcases.GooglesigninTests@394df057]" started-at="2024-03-07T11:47:51 IST" name="printErrorMesssage" finished-at="2024-03-07T11:47:51 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printErrorMesssage -->
+      </class> <!-- testcases.GooglesigninTests -->
+      <class name="testcases.UsedcarsTests">
+        <test-method signature="Menu()[pri:1, instance:testcases.UsedcarsTests@71e9ddb4]" started-at="2024-03-07T11:46:57 IST" name="Menu" finished-at="2024-03-07T11:47:01 IST" duration-ms="4078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu -->
+        <test-method signature="chennaiSubmenuOption()[pri:2, instance:testcases.UsedcarsTests@71e9ddb4]" started-at="2024-03-07T11:47:01 IST" name="chennaiSubmenuOption" finished-at="2024-03-07T11:47:12 IST" duration-ms="10512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chennaiSubmenuOption -->
+        <test-method signature="models()[pri:3, instance:testcases.UsedcarsTests@71e9ddb4]" started-at="2024-03-07T11:47:12 IST" name="models" finished-at="2024-03-07T11:47:18 IST" duration-ms="5327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- models -->
+        <test-method signature="navigateback()[pri:4, instance:testcases.UsedcarsTests@71e9ddb4]" started-at="2024-03-07T11:47:18 IST" name="navigateback" finished-at="2024-03-07T11:47:25 IST" duration-ms="6893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateback -->
+      </class> <!-- testcases.UsedcarsTests -->
+      <class name="testcases.Basetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Basetest@2002fc1d]" started-at="2024-03-07T11:45:52 IST" name="setup" finished-at="2024-03-07T11:46:04 IST" duration-ms="11498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Basetest@2002fc1d]" started-at="2024-03-07T11:47:51 IST" name="teardown" finished-at="2024-03-07T11:47:53 IST" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Basetest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

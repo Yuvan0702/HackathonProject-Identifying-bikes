@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.GooglesigninTests">
+        <methods>
+          <include name="teardown"/>
+          <include name="printErrorMesssage"/>
+          <include name="setup"/>
+          <include name="nextButton"/>
+          <include name="eMail"/>
+        </methods>
+      </class> <!-- testcases.GooglesigninTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
